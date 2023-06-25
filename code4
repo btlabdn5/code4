@@ -1,0 +1,13 @@
+void setup() 
+{
+  Serial.begin(9600);          
+}
+void loop() 
+{
+  for (int a = 1; a <= 10; a++)
+  {
+    int y = pow(a,2);
+    Serial.println(y);
+  }
+  while(1); 
+}
